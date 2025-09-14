@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Link Expired • ADULTING</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+      :root { --bg: #0b0b0b; --card: #121212; --text: #f6f7f9; --muted: #9aa3af; --accent: #ff7b7b; }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body { margin: 0; font-family: 'Outfit', system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--text); display: grid; place-items: center; padding: 24px; }
+      .card { width: 100%; max-width: 560px; background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 28px; box-shadow: 0 20px 40px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.05); backdrop-filter: blur(6px); }
+      h1 { margin: 0 0 6px; font-size: 26px; font-weight: 600; }
+      p { margin: 0; color: var(--muted); line-height: 1.6; }
+      .actions { margin-top: 18px; display: flex; gap: 12px; flex-wrap: wrap; }
+      .btn { appearance: none; border: none; cursor: pointer; padding: 12px 16px; font-weight: 600; border-radius: 10px; transition: transform .08s ease, box-shadow .2s ease, background .2s ease; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
+      .btn-primary { background: rgba(255,255,255,.08); color: var(--text); border: 1px solid rgba(255,255,255,.1); }
+      .btn-primary:hover { background: rgba(255,255,255,.12); }
+    </style>
+  </head>
+  <body>
+    <main class="card" role="main">
+      <h1>Confirmation link expired</h1>
+      <p>The verification link is invalid or has expired. Please request a new confirmation email from the app.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://adulting.app">Back to site</a>
+      </div>
+    </main>
+  </body>
+  </html>
+
+
